@@ -1,0 +1,26 @@
+body{
+    width: 100%;
+
+    /* the height will more than 100vh because when it smaller then 100vh we can scroll */
+
+    height: 300vh;
+    background-color: black;
+}
+
+.navbar{
+    /* navbar give a dummy color */
+
+    background-color: bisque;
+
+    /* give the positon to the navbar. If you did not give the position as fixed 
+    when you scroll the navbar will disappear  */
+
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+
+    /* here iam add the class of sticky with the navbar */
+.navbar.sticky{
+    background-color: crimson;
+}
